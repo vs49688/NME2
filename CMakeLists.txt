@@ -21,4 +21,4 @@ set_target_properties(nme PROPERTIES
 )
 
 target_compile_definitions(nme PUBLIC -DUNICODE -D_UNICODE)
-target_link_libraries(nme PUBLIC user32)
+

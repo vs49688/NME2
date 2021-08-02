@@ -114,7 +114,7 @@ bool CheckFileSignature(fpath path, char sig[]) {
         return false;
     }
 
-    const int read = (const int)fread_s(signature, SIGNATURE_SIZE, 1, SIGNATURE_SIZE, file);
+    const int read = fread(signature, SIGNATURE_SIZE, 1, file);
 
     // Confirm that the entire signature was read
     if (read < SIGNATURE_SIZE) {

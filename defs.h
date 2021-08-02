@@ -1,6 +1,6 @@
 #pragma once
 
-#include <Windows.h>
+#include <windows.h>
 #include <stdbool.h>
 #include <stdio.h>
 #include <stdlib.h>
